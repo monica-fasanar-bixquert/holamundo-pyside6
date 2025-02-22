@@ -5,7 +5,7 @@ Hola mundo con PySide6.
 Para ejecutar el *hola mundo*, necesitamos instalar antes Python3 y sus dependencias.
 
 ## Clonamos el proyecto en local y entramos en la carpeta del proyecto
-```
+```bash
 $ git clone https://github.com/di-magrawhill/holamundo-pyside6.git
 $ cd holamundo-pyside6/
 ```
@@ -15,7 +15,7 @@ $ cd holamundo-pyside6/
 
 ### Linux
 Python3 viene preinstalado en la mayoría de distribuciones Linux, se puede comprobar si está instalado ejecutando la siguiente orden en una terminal:
-```
+```bash
 $ python --version
 ```
 De no estar instalada, se puede descargar desde [aquí](https://www.python.org/downloads/).  
@@ -34,28 +34,28 @@ Se dispone de más información sobre su instalación en el siguiente [enlace](h
 
 ## Creación de un entorno virtual (venv)
 Para crear un entorno virtual y poder aislar la ejecución del resto del sistema (sandbox), ejecutamos la siguiente instrucción en una terminal.
-```
+```bash
 $ python3 -m venv venv
 ```
 
 ## Activación del entorno virtual
 ### Linux y macOs
-```
+```bash
 $ source venv/bin/activate
 ```
 
 ### Windows
-```
+```bash
 $ venv\Scripts\activate.bat
 ```
 
 ## Instalación de dependencias
-```
+```bash
 $ pip install -r requirements.txt
 ```
 
 ## Ejecución
-```
+```bash
 $ python3 src/holamundo_pyside6/holamundo.py
 ```
 Nos mostrará la aplicación *holamundo_pyside6* en ejecución.  
